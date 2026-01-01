@@ -1,28 +1,24 @@
-# =============================================
-# Gerçek mi? - Backend Dependencies
-# =============================================
+# Vottik Backend - Requirements
 
 # Web Framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
 
 # Database
-psycopg2-binary==2.9.9
+# psycopg2-binary==2.9.9  # PostgreSQL için - şimdilik kapalı
 
-# Authentication
-pyjwt==2.8.0
-bcrypt==4.1.2
+# Security
+pyjwt>=2.8.0
 
 # Validation
-pydantic[email]==2.5.3
-python-dotenv==1.0.0
+pydantic>=2.5.0
+email-validator>=2.0.0
 
-# CORS
-python-multipart==0.0.6
+# Environment
+python-dotenv>=1.0.0
 
-# Production server
-gunicorn==21.2.0
+# File Upload
+python-multipart>=0.0.6
 
-# Development tools (opsiyonel)
-# pytest==7.4.4
-# httpx==0.26.0
+# Production Server
+gunicorn>=21.2.0
