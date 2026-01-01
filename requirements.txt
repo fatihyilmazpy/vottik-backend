@@ -1,0 +1,28 @@
+# =============================================
+# Gerçek mi? - Backend Dependencies
+# =============================================
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Database
+psycopg2-binary==2.9.9
+
+# Authentication
+pyjwt==2.8.0
+bcrypt==4.1.2
+
+# Validation
+pydantic[email]==2.5.3
+python-dotenv==1.0.0
+
+# CORS
+python-multipart==0.0.6
+
+# Production server
+gunicorn==21.2.0
+
+# Development tools (opsiyonel)
+# pytest==7.4.4
+# httpx==0.26.0
